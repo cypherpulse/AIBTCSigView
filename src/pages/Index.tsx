@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Bitcoin, Brain, ArrowRight, Loader2 } from "lucide-react";
+import { ArrowRight, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { ParticleBackground } from "@/components/ParticleBackground";
@@ -43,18 +43,11 @@ const Index = () => {
 
       <div className="relative z-10 flex flex-col items-center max-w-2xl w-full animate-fade-in">
         {/* Logo */}
-        <div className="flex items-center gap-3 mb-6">
-          <div className="relative">
-            <div className="w-14 h-14 rounded-2xl bg-primary/20 border border-primary/40 flex items-center justify-center glow-orange">
-              <Bitcoin className="w-7 h-7 text-primary" />
-            </div>
-            <Brain className="w-5 h-5 text-success absolute -top-1 -right-1" />
-          </div>
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
-            <span className="text-gradient-orange">AIBTC</span>
-            <span className="text-foreground">SigView</span>
-          </h1>
-        </div>
+        <img
+          src="/aibtcsigview-logo.svg"
+          alt="AIBTCSigView"
+          className="mb-6 w-full max-w-[540px] h-auto drop-shadow-[0_12px_32px_rgba(0,0,0,0.35)]"
+        />
 
         {/* Tagline */}
         <p className="text-muted-foreground text-lg md:text-xl mb-10 text-center">
