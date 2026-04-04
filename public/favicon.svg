@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="AIBTCSigView favicon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220" />
+      <stop offset="100%" stop-color="#1a2948" />
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff8a00" />
+      <stop offset="100%" stop-color="#ffb347" />
+    </linearGradient>
+  </defs>
+
+  <rect x="8" y="8" width="240" height="240" rx="56" fill="url(#bg)" />
+  <circle cx="128" cy="128" r="76" fill="none" stroke="url(#ring)" stroke-width="14" />
+  <path d="M112 83h26c22 0 39 12 39 31 0 14-8 24-20 28 15 4 25 15 25 30 0 22-18 38-44 38h-26v-22h23c12 0 20-6 20-15 0-10-8-16-21-16h-22v-19h21c11 0 18-5 18-14 0-8-7-13-18-13h-21z" fill="#ffb347" />
+  <path d="M97 72h16v24H97zm0 88h16v24H97zm77-88h16v24h-16zm0 88h16v24h-16z" fill="#ffd08a" opacity="0.9" />
+</svg>
