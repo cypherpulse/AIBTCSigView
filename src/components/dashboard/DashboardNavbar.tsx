@@ -1,4 +1,4 @@
-import { Bitcoin, Brain, Copy, RefreshCw, Menu } from "lucide-react";
+import { Copy, RefreshCw, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
 import { useNavigate } from "react-router-dom";
@@ -26,10 +26,7 @@ export function DashboardNavbar({ address, onMenuToggle }: Props) {
       </Button>
 
       <button type="button" onClick={() => navigate("/")} className="flex items-center gap-3 sm:mr-4 group">
-        <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-gradient-to-br from-primary/30 to-primary/10 border border-primary/40 flex items-center justify-center relative shadow-[0_0_15px_rgba(var(--primary),0.2)] group-hover:shadow-[0_0_25px_rgba(var(--primary),0.4)] transition-all duration-300">
-          <Bitcoin className="w-4 h-4 sm:w-5 sm:h-5 text-primary drop-shadow-[0_0_8px_rgba(var(--primary),0.6)]" />
-          <Brain className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-green-400 absolute -top-1 -right-1 drop-shadow-[0_0_5px_rgba(74,222,128,0.8)]" />
-        </div>
+        <img src="/favicon.svg" alt="AIBTCSigView" className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl shadow-[0_0_15px_rgba(var(--primary),0.2)] group-hover:shadow-[0_0_25px_rgba(var(--primary),0.4)] transition-all duration-300" />
         <span className="font-bold text-lg sm:text-xl tracking-tight bg-gradient-to-r from-white to-white/70 bg-clip-text text-transparent hidden sm:block">AIBTCSigView</span>
       </button>
 
