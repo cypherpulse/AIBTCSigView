@@ -1,0 +1,5 @@
+# Seed note
+
+PR: chore: add .github/dependabot.yml config
+Scope: api
+Timestamp: 2026-04-28T02:37:22Z
